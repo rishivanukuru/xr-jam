@@ -14735,8 +14735,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serialController: {fileID: 195543976}
-  _debugIn: 0
-  _debugOut: 0
   _shouldHaptics: 1
   _isPhotonActive: 0
   _localPlayer: {fileID: 540281546}
@@ -18505,8 +18503,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907318304}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.17287998, y: 0.41449314, z: 0.37863708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2063754050}
@@ -28353,9 +28351,9 @@ MonoBehaviour:
   LeftHandParent: {fileID: 2048061843}
   RightHandParent: {fileID: 752748509}
   ReferenceObject: {fileID: 797945307}
-  VoiceNetwork: {fileID: 907318305}
   _introMenu: {fileID: 1679791508}
   _roomMenu: {fileID: 1460734600}
+  VoiceNetwork: {fileID: 907318305}
   PlayerName: 
 --- !u!4 &1576357848
 Transform:
@@ -28364,8 +28362,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1576357846}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.17287998, y: 0.41449314, z: 0.37863708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2063754050}
@@ -35270,7 +35268,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063754049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.17287998, y: -0.41449314, z: -0.37863708}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1576357848}

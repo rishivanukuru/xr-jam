@@ -91,18 +91,20 @@ public class MIDIProcessor : MonoBehaviour
 
     void ProcessMIDI(OscMessage message)
     {
-        /*
-        // DEBUG MIDI NOTES
-        Debug.Log(message.ToString());
+
         _message = (message.ToString()).Substring(1);
         _msgData = _message.Split('/');
         _msgNote = _msgData[2].Split(' ');
+
+        /*
+        // DEBUG MIDI NOTES
+        Debug.Log(message.ToString());
         Debug.Log(_msgData[0] + " " + _msgData[1] + " " + _msgData[2]);
         Debug.Log(_msgNote[0] + " " + _msgNote[1] + " " + _msgNote[2]);
         */
 
         // Add/remove the note from the Notes List
-        if(_msgData[0].Equals("NoteOn"))
+        if (_msgData[0].Equals("NoteOn"))
         {
             if(_msgNote[2] != "0")
             {
